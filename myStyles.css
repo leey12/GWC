@@ -1,0 +1,52 @@
+/* Set height of body and the document to 100% to enable "full page tabs" */
+body, html {
+  height: 100%;
+  margin: 0;
+  font-family: Arial;
+}
+
+/* Style tab links */
+.tablink {
+  background-color: #555;
+  color: white;
+  float: left;
+  border: "none";
+  outline: "none";
+  cursor: pointer;
+  padding: 14px 16px;
+  font-size: 17px;
+  width: 25%;
+}
+
+.tablink:hover {
+  background-color: #777;
+}
+
+/* Style the tab content (and add height:100% for full page content) */
+.tabcontent {
+  color: white;
+  display: "none";
+  padding: 100px 20px;
+  height: 100%;
+  -webkit-animation: fadeEffect 1s;
+  animation: fadeEffect 1s;
+}
+
+#Home {background-color: rgba(171, 205, 239, 0.5);}
+#News {background-color: rgba(171, 205, 239, 0.5);}
+#Contact {background-color: rgba(171, 205, 239, 0.5);}
+#About {background-color: rgba(171, 205, 239, 0.5);}
+
+h{
+  color:blue;
+  text-align:left;
+  font-size:32px;
+  font-family: impact;
+}
+
+
+
+body {
+ background-image: url("https://i.pinimg.com/originals/4b/a8/a3/4ba8a309f344cb77b9778245f0b0d1c9.jpg");
+ background-color: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(240,255,175,1) 0%, rgba(255,226,87,1) 37%);
+}

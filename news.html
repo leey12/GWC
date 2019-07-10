@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link rel="stylesheet" href="myStyles.css">
+    <script scr="file.js"></script>
+  </head>
+  <body>
+
+<h1> <center> ⚡ Pikachu appreciation page ⚡ </center> </h1>
+
+
+<button class="tablink" onclick="location.replace('web.html')" id="defaultOpen">Home</button>
+<button class="tablink" onclick="location.replace('news.html')">News</button>
+<button class="tablink" onclick="location.replace('contacts.html')">Contact</button>
+<button class="tablink" onclick="location.replace('about.html')">About</button>
+
+
+<div id="News" class="tabcontent">
+  <h> News </h>
+  <p> Prepare to be <strong> S H O C K E D </strong> </p>
+</div>
+
+
+<script>
+function myFunction() {
+  document.getElementById(tablink).innerHTML = "Paragraph changed.";
+}
+</script>
+
+
+</body>
+</html>
